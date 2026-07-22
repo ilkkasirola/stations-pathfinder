@@ -1,0 +1,16 @@
+graph stations 
+{rankdir=LR;
+
+node [shape=ellipse, fixedsize=false];
+
+"beginning";
+"near";
+"far";
+"terminus";
+
+"beginning" -- "near";
+"beginning" -- "terminus";
+"near" -- "far";
+"terminus" -- "far";
+
+}

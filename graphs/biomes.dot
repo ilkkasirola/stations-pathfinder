@@ -1,0 +1,39 @@
+graph stations 
+{rankdir=LR;
+
+node [shape=ellipse, fixedsize=false];
+
+"jungle";
+"green_belt";
+"village";
+"mountain";
+"treetop";
+"grasslands";
+"suburbs";
+"clouds";
+"wetlands";
+"farms";
+"downtown";
+"metropolis";
+"industrial";
+"desert";
+
+"jungle" -- "grasslands";
+"mountain" -- "treetop";
+"clouds" -- "wetlands";
+"downtown" -- "metropolis";
+"green_belt" -- "village";
+"suburbs" -- "clouds";
+"industrial" -- "desert";
+"jungle" -- "farms";
+"village" -- "mountain";
+"wetlands" -- "desert";
+"grasslands" -- "suburbs";
+"jungle" -- "green_belt";
+"farms" -- "downtown";
+"treetop" -- "desert";
+"metropolis" -- "industrial";
+"mountain" -- "wetlands";
+"farms" -- "mountain";
+
+}

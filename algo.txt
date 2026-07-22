@@ -1,0 +1,15 @@
+find bottlenecks? start with start and end connection counts
+find maximum number of(?) non-overlapping paths
+find all non-overlapping paths
+	https://en.wikipedia.org/wiki/Maximum_flow_problem#Maximum_number_of_paths_from_s_to_t
+	which algo?
+	understand what algo does
+
+	use algo
+
+
+sort paths by distance
+
+
+shortest path + trains count = threshold
+

@@ -1,0 +1,39 @@
+graph stations {
+  rankdir=LR;
+
+  // format: name,x,y
+  node [shape=ellipse, fixedsize=false];
+
+  "jungle"       [pos="5,16!"];
+  "green_belt"   [pos="6,1!"];
+  "village"      [pos="5,7!"];
+  "mountain"     [pos="9,16!"];
+  "treetop"      [pos="0,4!"];
+  "grasslands"   [pos="15,13!"];
+  "suburbs"      [pos="4,9!"];
+  "clouds"       [pos="0,0!"];
+  "wetlands"     [pos="2,12!"];
+  "farms"        [pos="11,10!"];
+  "downtown"     [pos="4,4!"];
+  "metropolis"  [pos="3,20!"];
+  "industrial"  [pos="1,18!"];
+  "desert"       [pos="9,0!"];
+
+  "jungle" -- "grasslands"  
+  "mountain" -- "treetop"   
+  "clouds" -- "wetlands"    
+  "downtown" -- "metropolis"
+  "green_belt" -- "village" 
+  "suburbs" -- "clouds"     
+  "industrial" -- "desert"  
+  "jungle" -- "farms"       
+  "village" -- "mountain"   
+  "wetlands" -- "desert"    
+  "grasslands" -- "suburbs" 
+  "jungle" -- "green_belt"  
+  "farms" -- "downtown"     
+  "treetop" -- "desert"     
+  "metropolis" -- "industrial"
+  "mountain" -- "wetlands"  
+  "farms" -- "mountain"     
+}

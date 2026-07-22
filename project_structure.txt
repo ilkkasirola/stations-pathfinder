@@ -1,0 +1,18 @@
+package main
+	main
+		invoke io
+		graceful shutdown
+
+	io
+		only reads and writes
+		user args, input file
+
+	parse
+		parses both user arguments and map file
+
+	logger
+		prints out errors and messages
+		
+
+	algorithm
+		do the thing

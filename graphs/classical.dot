@@ -1,0 +1,22 @@
+graph stations 
+{rankdir=LR;
+
+node [shape=ellipse, fixedsize=false];
+
+"beethoven";
+"verdi";
+"albinoni";
+"handel";
+"mozart";
+"part";
+
+"beethoven" -- "handel";
+"handel" -- "mozart";
+"beethoven" -- "verdi";
+"verdi" -- "part";
+"verdi" -- "albinoni";
+"beethoven" -- "albinoni";
+"albinoni" -- "mozart";
+"mozart" -- "part";
+
+}

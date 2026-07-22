@@ -1,0 +1,15 @@
+graph stations 
+{rankdir=LR;
+
+node [shape=ellipse, fixedsize=false];
+
+"bond_square";
+"apple_avenue";
+"orange_junction";
+"space_port";
+
+"bond_square" -- "apple_avenue";
+"apple_avenue" -- "orange_junction";
+"orange_junction" -- "space_port";
+
+}

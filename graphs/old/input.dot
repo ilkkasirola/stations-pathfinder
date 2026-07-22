@@ -1,0 +1,10 @@
+graph stations {
+  rankdir=LR;
+
+  node [shape=circle];
+
+  "waterloo" -- "victoria"  [label="waterloo-victoria"];
+  "waterloo" -- "euston"    [label="waterloo-euston"];
+  "st_pancras" -- "euston"  [label="st_pancras-euston"];
+  "victoria" -- "st_pancras" [label="victoria-st_pancras"];
+}

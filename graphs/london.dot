@@ -1,0 +1,16 @@
+graph stations 
+{rankdir=LR;
+
+node [shape=ellipse, fixedsize=false];
+
+"waterloo";
+"victoria";
+"euston";
+"st_pancras";
+
+"waterloo" -- "victoria";
+"waterloo" -- "euston";
+"st_pancras" -- "euston";
+"victoria" -- "st_pancras";
+
+}
